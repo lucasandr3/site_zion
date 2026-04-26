@@ -1,45 +1,45 @@
 import { motion } from "framer-motion";
-import { Bot, BarChart3, CalendarCheck, Settings2 } from "lucide-react";
+import { Bot, Globe, MapPin, MessageCircle } from "lucide-react";
 
 const solutions = [
   {
     icon: Bot,
-    title: "Sistema de qualificação comercial com IA",
+    title: "Atendimento inteligente 24 horas pelo WhatsApp",
     features: [
-      "Atendimento de leads 24/7",
-      "Fluxos inteligentes de qualificação",
-      "Entrega organizada no pipeline",
-      "Só oportunidades prontas para venda chegam ao seu time",
+      "Responde clientes mesmo fora do horario comercial",
+      "Qualifica e organiza contatos para seu time atender melhor",
+      "Atende com rapidez e melhora a experiencia do cliente",
+      "Seu cliente se sente bem atendido em qualquer hora do dia",
     ],
   },
   {
-    icon: BarChart3,
-    title: "Inteligência financeira com IA",
+    icon: MessageCircle,
+    title: "Atendimento Inteligente Express pelo WhatsApp - 67,00 mensais",
     features: [
-      "Gestão estruturada do fluxo de caixa",
-      "Lembretes automatizados",
-      "Visibilidade em tempo real dos relatórios",
-      "Clareza financeira para decisões estratégicas",
+      "Plano de entrada para comecar rapido e atender melhor",
+      "Configuracao express para colocar seu atendimento no ar",
+      "Ideal para quem quer resultado com baixo investimento mensal",
+      "Mensalidade fixa de 67,00",
     ],
   },
   {
-    icon: CalendarCheck,
-    title: "Automação de agendamentos com IA",
+    icon: MapPin,
+    title: "Configuracao profissional do Google Meu Negocio",
     features: [
-      "Fluxos inteligentes de agendamento",
-      "Confirmações automatizadas",
-      "Redução de faltas",
-      "Integração fluida com calendário",
+      "Perfil otimizado para aparecer melhor nas buscas locais",
+      "Informacoes organizadas para gerar mais confianca",
+      "Mais visibilidade para quem procura seu servico na regiao",
+      "Posicionamento digital para atrair novos contatos no WhatsApp",
     ],
   },
   {
-    icon: Settings2,
-    title: "Consultoria em tecnologia e processos",
+    icon: Globe,
+    title: "Desenvolvimento de sites por 300,00 + 29,00 mensais",
     features: [
-      "Automação de processos de negócio",
-      "Estratégia de otimização de custos",
-      "Redesenho operacional",
-      "Infraestrutura digital escalável",
+      "Criacao do seu site profissional por 300,00",
+      "Mensalidade de 29,00 com manutencao inclusa",
+      "Site pensado para facilitar contato e atendimento",
+      "Sua marca com presenca forte e atendimento mais profissional",
     ],
   },
 ];
@@ -55,10 +55,10 @@ const SolutionsSection = () => (
         className="text-center mb-16"
       >
         <p className="text-primary font-heading text-sm tracking-[0.2em] uppercase mb-4">
-          Nossas soluções
+          Servicos de atendimento inteligente
         </p>
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
-          Sistemas inteligentes para escalar
+          Solucoes prontas para atender melhor no WhatsApp
         </h2>
       </motion.div>
 

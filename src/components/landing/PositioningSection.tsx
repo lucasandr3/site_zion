@@ -10,14 +10,13 @@ const PositioningSection = () => (
         transition={{ duration: 0.6 }}
       >
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-          Tecnologia não é despesa.{" "}
-          <span className="text-gradient-gold">É vantagem competitiva.</span>
+          Seu atendimento pode ser mais rapido.{" "}
+          <span className="text-gradient-gold">E funcionar no piloto automatico.</span>
         </h2>
         <p className="text-muted-foreground text-lg leading-relaxed font-body">
-          A Zion Tech constrói sistemas estruturados e inteligentes para eficiência de
-          longo prazo e escalabilidade. Trabalhamos com empresas que enxergam tecnologia
-          como investimento estratégico, e não como centro de custo, entregando uma
-          infraestrutura que gera valor continuamente ao longo do tempo.
+          A Zion Tech cria automacoes praticas para WhatsApp e presenca digital,
+          ajudando voce a responder mais rapido, organizar contatos e manter um
+          atendimento de alto nivel com consistencia.
         </p>
       </motion.div>
     </div>

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MessageCircle } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -25,12 +25,12 @@ const HeroSection = () => {
             Zion Tech
           </p>
           <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground">
-            Automação inteligente para empresas{" "}
-            <span className="text-gradient-gold">prontas para escalar</span>
+            Atendimento e automação inteligente para{" "}
+            <span className="text-gradient-gold">atender melhor todos os dias</span>
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-body">
-            Projetamos e implementamos sistemas com IA que transformam operações,
-            aumentam a eficiência e destravam um crescimento previsível.
+            Transformamos seu WhatsApp e sua presenca digital em uma central de
+            atendimento rapido, com processos organizados e suporte continuo.
           </p>
         </motion.div>
 
@@ -44,15 +44,18 @@ const HeroSection = () => {
             onClick={() => scrollTo("contact")}
             className="bg-gradient-gold text-primary-foreground font-heading font-semibold px-8 py-4 rounded-lg hover:opacity-90 transition-all duration-300 glow-gold flex items-center justify-center gap-2"
           >
-            Agendar consultoria estratégica
+            Quero melhorar meu atendimento
             <ArrowRight className="w-4 h-4" />
           </button>
-          <button
-            onClick={() => scrollTo("solutions")}
-            className="border border-foreground/20 text-foreground font-heading font-medium px-8 py-4 rounded-lg hover:border-primary/50 hover:text-primary transition-all duration-300"
+          <a
+            href="https://wa.me/553499640818?text=Oi!%20Quero%20saber%20mais%20sobre%20os%20servicos%20de%20atendimento%20inteligente%20da%20Zion%20Tech."
+            target="_blank"
+            rel="noreferrer"
+            className="border border-foreground/20 text-foreground font-heading font-medium px-8 py-4 rounded-lg hover:border-primary/50 hover:text-primary transition-all duration-300 inline-flex items-center justify-center gap-2"
           >
-            Conhecer nossas soluções
-          </button>
+            Falar no WhatsApp
+            <MessageCircle className="w-4 h-4" />
+          </a>
         </motion.div>
       </div>
 

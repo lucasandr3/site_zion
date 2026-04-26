@@ -8,11 +8,11 @@ const Footer = () => (
         Software inteligente e automação com IA
       </p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-muted-foreground font-body">
-        <span>contato@ziontech.com.br</span>
+        <span>WhatsApp: (34) 99640-818</span>
         <span className="hidden sm:inline text-border">|</span>
-        <span>+55 (11) 9999-0000</span>
+        <span>+55 34 99640-818</span>
         <span className="hidden sm:inline text-border">|</span>
-        <span>São Paulo, SP</span>
+        <span>Uberlândia, MG</span>
       </div>
       <p className="text-xs text-muted-foreground/60 pt-4">
         © {new Date().getFullYear()} Zion Tech. Todos os direitos reservados.

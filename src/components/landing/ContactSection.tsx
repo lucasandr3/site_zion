@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { MessageCircle } from "lucide-react";
 
 const ContactSection = () => {
   const [form, setForm] = useState({
@@ -41,8 +42,20 @@ const ContactSection = () => {
             Fale conosco
           </p>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
-            Inicie a conversa
+            Inicie a conversa e melhore seu atendimento
           </h2>
+          <p className="mt-3 text-muted-foreground font-body">
+            Uberlandia - Minas Gerais | WhatsApp: (34) 99640-818
+          </p>
+          <a
+            href="https://wa.me/553499640818?text=Oi!%20Sou%20de%20Uberlandia%20e%20quero%20melhorar%20meu%20atendimento%20com%20a%20Zion%20Tech."
+            target="_blank"
+            rel="noreferrer"
+            className="mt-6 inline-flex items-center gap-2 border border-primary/40 text-primary font-heading font-semibold px-6 py-3 rounded-lg hover:bg-primary/10 transition-all duration-300"
+          >
+            Atendimento pelo WhatsApp
+            <MessageCircle className="w-4 h-4" />
+          </a>
         </motion.div>
 
         <motion.form
