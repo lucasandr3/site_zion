@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { Check } from "lucide-react";
 
 const benefits = [
-  "Operational clarity",
-  "Reduced dependency on manual processes",
-  "Higher conversion rates",
-  "Structured financial visibility",
-  "Predictable growth systems",
-  "Enhanced customer experience",
+  "Clareza operacional",
+  "Menor dependência de processos manuais",
+  "Taxas de conversão mais altas",
+  "Visibilidade financeira estruturada",
+  "Sistemas de crescimento previsível",
+  "Experiência do cliente aprimorada",
 ];
 
 const BenefitsSection = () => (
@@ -20,7 +20,7 @@ const BenefitsSection = () => (
         transition={{ duration: 0.6 }}
       >
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-12">
-          What Changes <span className="text-gradient-gold">After Implementation</span>
+          O que muda <span className="text-gradient-gold">após a implementação</span>
         </h2>
       </motion.div>
 

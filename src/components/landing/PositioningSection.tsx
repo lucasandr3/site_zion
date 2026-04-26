@@ -10,14 +10,14 @@ const PositioningSection = () => (
         transition={{ duration: 0.6 }}
       >
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-6">
-          Technology Is Not an Expense.{" "}
-          <span className="text-gradient-gold">It Is a Competitive Advantage.</span>
+          Tecnologia não é despesa.{" "}
+          <span className="text-gradient-gold">É vantagem competitiva.</span>
         </h2>
         <p className="text-muted-foreground text-lg leading-relaxed font-body">
-          Zion Tech builds structured, intelligent systems designed for long-term efficiency
-          and scalability. We partner with businesses that understand technology as a
-          strategic investment — not a cost center — and deliver infrastructure that
-          compounds value over time.
+          A Zion Tech constrói sistemas estruturados e inteligentes para eficiência de
+          longo prazo e escalabilidade. Trabalhamos com empresas que enxergam tecnologia
+          como investimento estratégico, e não como centro de custo, entregando uma
+          infraestrutura que gera valor continuamente ao longo do tempo.
         </p>
       </motion.div>
     </div>

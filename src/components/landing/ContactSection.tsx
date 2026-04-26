@@ -20,7 +20,7 @@ const ContactSection = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Form submission placeholder
-    alert("Thank you! We'll be in touch shortly.");
+    alert("Obrigado! Entraremos em contato em breve.");
     setForm({ name: "", company: "", email: "", phone: "", segment: "", message: "" });
   };
 
@@ -38,10 +38,10 @@ const ContactSection = () => {
           className="text-center mb-12"
         >
           <p className="text-primary font-heading text-sm tracking-[0.2em] uppercase mb-4">
-            Get In Touch
+            Fale conosco
           </p>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
-            Start the Conversation
+            Inicie a conversa
           </h2>
         </motion.div>
 
@@ -58,7 +58,7 @@ const ContactSection = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="Full Name"
+              placeholder="Nome completo"
               required
               className={inputClasses}
             />
@@ -66,7 +66,7 @@ const ContactSection = () => {
               name="company"
               value={form.company}
               onChange={handleChange}
-              placeholder="Company Name"
+              placeholder="Nome da empresa"
               className={inputClasses}
             />
           </div>
@@ -84,7 +84,7 @@ const ContactSection = () => {
               name="phone"
               value={form.phone}
               onChange={handleChange}
-              placeholder="Phone"
+              placeholder="Telefone"
               className={inputClasses}
             />
           </div>
@@ -94,20 +94,20 @@ const ContactSection = () => {
             onChange={handleChange}
             className={inputClasses}
           >
-            <option value="">Business Segment</option>
-            <option value="healthcare">Healthcare</option>
-            <option value="aesthetics">Aesthetic Centers</option>
-            <option value="realestate">Real Estate</option>
-            <option value="automotive">Automotive</option>
-            <option value="retail">Retail</option>
-            <option value="furniture">Custom Furniture</option>
-            <option value="other">Other</option>
+            <option value="">Segmento da empresa</option>
+            <option value="healthcare">Saúde</option>
+            <option value="aesthetics">Centros estéticos</option>
+            <option value="realestate">Imobiliário</option>
+            <option value="automotive">Automotivo</option>
+            <option value="retail">Varejo</option>
+            <option value="furniture">Móveis planejados</option>
+            <option value="other">Outro</option>
           </select>
           <textarea
             name="message"
             value={form.message}
             onChange={handleChange}
-            placeholder="Message"
+            placeholder="Mensagem"
             rows={4}
             className={inputClasses + " resize-none"}
           />
@@ -115,7 +115,7 @@ const ContactSection = () => {
             type="submit"
             className="w-full bg-gradient-gold text-primary-foreground font-heading font-semibold px-8 py-4 rounded-lg hover:opacity-90 transition-all duration-300 glow-gold"
           >
-            Submit Request
+            Enviar solicitação
           </button>
         </motion.form>
       </div>

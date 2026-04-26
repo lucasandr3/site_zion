@@ -18,8 +18,8 @@ const Navbar = () => {
   };
 
   const links = [
-    { label: "Solutions", id: "solutions" },
-    { label: "Contact", id: "contact" },
+    { label: "Soluções", id: "solutions" },
+    { label: "Contato", id: "contact" },
   ];
 
   return (
@@ -50,7 +50,7 @@ const Navbar = () => {
             onClick={() => scrollTo("contact")}
             className="text-sm font-heading font-medium text-primary border border-primary/30 px-5 py-2 rounded-lg hover:bg-primary/10 transition-all duration-300"
           >
-            Book a Call
+            Agendar conversa
           </button>
         </div>
 
@@ -81,7 +81,7 @@ const Navbar = () => {
             onClick={() => scrollTo("contact")}
             className="block text-sm font-heading font-medium text-primary"
           >
-            Book a Call
+            Agendar conversa
           </button>
         </motion.div>
       )}

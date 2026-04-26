@@ -16,18 +16,18 @@ const FinalCTASection = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="font-heading text-3xl md:text-5xl font-bold text-foreground mb-6">
-            Ready to Operate at a{" "}
-            <span className="text-gradient-gold">Higher Level?</span>
+            Pronto para operar em{" "}
+            <span className="text-gradient-gold">outro nível?</span>
           </h2>
           <p className="text-muted-foreground text-lg font-body mb-10 max-w-xl mx-auto">
-            Schedule a strategic consultation and discover how intelligent systems can
-            transform your business.
+            Agende uma consultoria estratégica e descubra como sistemas inteligentes
+            podem transformar o seu negócio.
           </p>
           <button
             onClick={() => scrollTo("contact")}
             className="bg-gradient-gold text-primary-foreground font-heading font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-all duration-300 glow-gold inline-flex items-center gap-2"
           >
-            Book My Strategic Session
+            Agendar minha sessão estratégica
             <ArrowRight className="w-4 h-4" />
           </button>
         </motion.div>

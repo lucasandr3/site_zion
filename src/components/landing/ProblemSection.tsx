@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 
 const problems = [
-  "Delayed responses and lost opportunities",
-  "Overloaded teams",
-  "Manual and fragmented processes",
-  "Financial inefficiencies",
-  "Lack of scalable structure",
+  "Respostas demoradas e oportunidades perdidas",
+  "Times sobrecarregados",
+  "Processos manuais e fragmentados",
+  "Ineficiências financeiras",
+  "Falta de estrutura escalável",
 ];
 
 const ProblemSection = () => (
@@ -19,8 +19,8 @@ const ProblemSection = () => (
         className="text-center mb-12"
       >
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground mb-4">
-          Operational Complexity Is{" "}
-          <span className="text-gradient-gold">Limiting Your Growth</span>
+          A complexidade operacional está{" "}
+          <span className="text-gradient-gold">limitando seu crescimento</span>
         </h2>
       </motion.div>
 
@@ -47,7 +47,7 @@ const ProblemSection = () => (
         transition={{ duration: 0.6, delay: 0.5 }}
         className="text-center text-foreground font-heading text-lg font-medium"
       >
-        Growth requires systems — not more manual effort.
+        Crescimento exige sistemas, não mais esforço manual.
       </motion.p>
     </div>
   </section>

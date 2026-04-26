@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { Heart, Sparkles, Building2, Car, ShoppingBag, Armchair } from "lucide-react";
 
 const industries = [
-  { icon: Heart, label: "Healthcare Clinics" },
-  { icon: Sparkles, label: "Aesthetic Centers" },
-  { icon: Building2, label: "Real Estate" },
-  { icon: Car, label: "Automotive" },
-  { icon: ShoppingBag, label: "Retail" },
-  { icon: Armchair, label: "Custom Furniture" },
+  { icon: Heart, label: "Clínicas de saúde" },
+  { icon: Sparkles, label: "Centros estéticos" },
+  { icon: Building2, label: "Imobiliário" },
+  { icon: Car, label: "Automotivo" },
+  { icon: ShoppingBag, label: "Varejo" },
+  { icon: Armchair, label: "Móveis planejados" },
 ];
 
 const AuthoritySection = () => (
@@ -20,9 +20,9 @@ const AuthoritySection = () => (
         transition={{ duration: 0.6 }}
         className="text-lg md:text-xl text-secondary-foreground leading-relaxed mb-16 font-body"
       >
-        With over <span className="text-primary font-semibold">8 years of experience</span> in
-        software engineering and enterprise technology, Zion Tech helps companies replace
-        operational bottlenecks with intelligent systems designed for scale.
+        Com mais de <span className="text-primary font-semibold">8 anos de experiência</span> em
+        engenharia de software e tecnologia empresarial, a Zion Tech ajuda empresas a
+        substituir gargalos operacionais por sistemas inteligentes desenhados para escalar.
       </motion.p>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">

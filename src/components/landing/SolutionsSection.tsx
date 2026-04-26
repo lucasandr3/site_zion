@@ -4,42 +4,42 @@ import { Bot, BarChart3, CalendarCheck, Settings2 } from "lucide-react";
 const solutions = [
   {
     icon: Bot,
-    title: "AI Sales Qualification System",
+    title: "Sistema de qualificação comercial com IA",
     features: [
-      "24/7 lead engagement",
-      "Intelligent qualification flows",
-      "Organized pipeline delivery",
-      "Only sales-ready opportunities reach your team",
+      "Atendimento de leads 24/7",
+      "Fluxos inteligentes de qualificação",
+      "Entrega organizada no pipeline",
+      "Só oportunidades prontas para venda chegam ao seu time",
     ],
   },
   {
     icon: BarChart3,
-    title: "AI Financial Intelligence",
+    title: "Inteligência financeira com IA",
     features: [
-      "Structured cash flow management",
-      "Automated reminders",
-      "Real-time reporting visibility",
-      "Strategic financial clarity",
+      "Gestão estruturada do fluxo de caixa",
+      "Lembretes automatizados",
+      "Visibilidade em tempo real dos relatórios",
+      "Clareza financeira para decisões estratégicas",
     ],
   },
   {
     icon: CalendarCheck,
-    title: "AI Scheduling Automation",
+    title: "Automação de agendamentos com IA",
     features: [
-      "Intelligent booking flows",
-      "Automated confirmations",
-      "Reduced no-shows",
-      "Seamless calendar integration",
+      "Fluxos inteligentes de agendamento",
+      "Confirmações automatizadas",
+      "Redução de faltas",
+      "Integração fluida com calendário",
     ],
   },
   {
     icon: Settings2,
-    title: "Technology & Process Consulting",
+    title: "Consultoria em tecnologia e processos",
     features: [
-      "Business process automation",
-      "Cost optimization strategy",
-      "Operational redesign",
-      "Scalable digital infrastructure",
+      "Automação de processos de negócio",
+      "Estratégia de otimização de custos",
+      "Redesenho operacional",
+      "Infraestrutura digital escalável",
     ],
   },
 ];
@@ -55,10 +55,10 @@ const SolutionsSection = () => (
         className="text-center mb-16"
       >
         <p className="text-primary font-heading text-sm tracking-[0.2em] uppercase mb-4">
-          Our Solutions
+          Nossas soluções
         </p>
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
-          Our Intelligent Systems
+          Sistemas inteligentes para escalar
         </h2>
       </motion.div>
 

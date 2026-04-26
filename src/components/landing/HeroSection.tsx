@@ -25,12 +25,12 @@ const HeroSection = () => {
             Zion Tech
           </p>
           <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground">
-            Intelligent Automation for Businesses{" "}
-            <span className="text-gradient-gold">Ready to Scale</span>
+            Automação inteligente para empresas{" "}
+            <span className="text-gradient-gold">prontas para escalar</span>
           </h1>
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-body">
-            We design and implement AI-powered systems that transform operations,
-            increase efficiency, and unlock predictable growth.
+            Projetamos e implementamos sistemas com IA que transformam operações,
+            aumentam a eficiência e destravam um crescimento previsível.
           </p>
         </motion.div>
 
@@ -44,14 +44,14 @@ const HeroSection = () => {
             onClick={() => scrollTo("contact")}
             className="bg-gradient-gold text-primary-foreground font-heading font-semibold px-8 py-4 rounded-lg hover:opacity-90 transition-all duration-300 glow-gold flex items-center justify-center gap-2"
           >
-            Schedule a Strategic Consultation
+            Agendar consultoria estratégica
             <ArrowRight className="w-4 h-4" />
           </button>
           <button
             onClick={() => scrollTo("solutions")}
             className="border border-foreground/20 text-foreground font-heading font-medium px-8 py-4 rounded-lg hover:border-primary/50 hover:text-primary transition-all duration-300"
           >
-            Explore Our Solutions
+            Conhecer nossas soluções
           </button>
         </motion.div>
       </div>

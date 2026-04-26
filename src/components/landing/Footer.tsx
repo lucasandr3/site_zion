@@ -5,7 +5,7 @@ const Footer = () => (
         Zion Tech
       </p>
       <p className="text-sm text-muted-foreground font-body">
-        Intelligent Software & AI Automation
+        Software inteligente e automação com IA
       </p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-muted-foreground font-body">
         <span>contato@ziontech.com.br</span>
@@ -15,7 +15,7 @@ const Footer = () => (
         <span>São Paulo, SP</span>
       </div>
       <p className="text-xs text-muted-foreground/60 pt-4">
-        © {new Date().getFullYear()} Zion Tech. All rights reserved.
+        © {new Date().getFullYear()} Zion Tech. Todos os direitos reservados.
       </p>
     </div>
   </footer>
