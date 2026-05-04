@@ -5,7 +5,7 @@ const Footer = () => (
         Zion Tech
       </p>
       <p className="text-sm text-muted-foreground font-body">
-        Software inteligente e automação com IA
+        Desenvolvimento de sites, software inteligente e automacao com IA
       </p>
       <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-sm text-muted-foreground font-body">
         <span>WhatsApp: (34) 99640-818</span>

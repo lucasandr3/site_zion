@@ -55,10 +55,10 @@ const SolutionsSection = () => (
         className="text-center mb-16"
       >
         <p className="text-primary font-heading text-sm tracking-[0.2em] uppercase mb-4">
-          Servicos de atendimento inteligente
+          Servicos para crescimento digital
         </p>
         <h2 className="font-heading text-3xl md:text-4xl font-bold text-foreground">
-          Solucoes prontas para atender melhor no WhatsApp
+          Solucoes completas em sites, atendimento e presenca online
         </h2>
       </motion.div>
 

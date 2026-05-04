@@ -19,6 +19,7 @@ const Navbar = () => {
 
   const links = [
     { label: "Soluções", id: "solutions" },
+    { label: "Portfolio", id: "portfolio" },
     { label: "Contato", id: "contact" },
   ];
 

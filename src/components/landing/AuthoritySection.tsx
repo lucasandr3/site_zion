@@ -22,9 +22,9 @@ const AuthoritySection = () => (
         transition={{ duration: 0.6 }}
         className="text-lg md:text-xl text-secondary-foreground leading-relaxed mb-8 font-body"
       >
-        Com mais de <span className="text-primary font-semibold">8 anos de experiência</span> em
-        engenharia de software e automacao, a Zion Tech ajuda voce a substituir
-        atendimento manual por sistemas inteligentes focados em qualidade e agilidade.
+        Com mais de <span className="text-primary font-semibold">8 anos de experiencia</span> em
+        engenharia de software, a Zion Tech desenvolve sites de alta conversao e automacoes
+        praticas para voce vender mais e atender com qualidade.
       </motion.p>
 
       <motion.p
@@ -34,7 +34,7 @@ const AuthoritySection = () => (
         transition={{ duration: 0.6, delay: 0.1 }}
         className="text-muted-foreground font-body mb-8"
       >
-        Atendemos diversos nichos e adaptamos cada agente inteligente ao seu processo.
+        Atendemos diversos nichos e adaptamos cada projeto web e fluxo de atendimento ao seu negocio.
       </motion.p>
 
       <div className="flex flex-wrap justify-center gap-3">

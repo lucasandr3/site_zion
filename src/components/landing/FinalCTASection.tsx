@@ -20,14 +20,14 @@ const FinalCTASection = () => {
             <span className="text-gradient-gold">outro nível?</span>
           </h2>
           <p className="text-muted-foreground text-lg font-body mb-10 max-w-xl mx-auto">
-            Agende uma consultoria estratégica e descubra como sistemas inteligentes
-            podem transformar o seu negócio.
+            Agende uma consultoria estrategica e descubra como um site profissional,
+            junto com automacao de atendimento, pode transformar o seu negocio.
           </p>
           <button
             onClick={() => scrollTo("contact")}
             className="bg-gradient-gold text-primary-foreground font-heading font-semibold px-10 py-4 rounded-lg hover:opacity-90 transition-all duration-300 glow-gold inline-flex items-center gap-2"
           >
-            Agendar minha sessão estratégica
+            Agendar minha sessao estrategica
             <ArrowRight className="w-4 h-4" />
           </button>
         </motion.div>
